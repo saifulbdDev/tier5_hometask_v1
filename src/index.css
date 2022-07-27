@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-.icon{
+.icon {
   font-size: 20px;
+}
+.side-bar {
+  max-width: 360px;
+  flex-basis: 360px;
+  min-width: 280px;
+  flex-shrink: 9999;
+}
+.side-bar::-webkit-scrollbar {
+  width: 8px;
+
+  border-radius: 50%;
+}
+
+.side-bar::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+.side-bar::-webkit-scrollbar-button {
+}
+.side-bar::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+
+  @apply bg-gray-400;
+}
+.header-container {
+  @apply grid  gap-2 w-full h-14 mx-auto md:h-16 z-10 items-center grid-cols-header;
+  max-width: calc(935px + 40px);
+  
 }

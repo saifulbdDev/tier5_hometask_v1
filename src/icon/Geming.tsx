@@ -1,10 +1,6 @@
 import React from "react";
-interface gemingType {
-  className: string;
-  height: number;
-  width: number;
-}
-const Geming: React.FC<gemingType> = (props) => {
+import { iconType } from "../types/global";
+const Geming: React.FC<iconType> = (props) => {
   const { className, height, width } = props;
   return (
     <svg

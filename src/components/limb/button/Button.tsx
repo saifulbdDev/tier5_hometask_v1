@@ -1,6 +1,6 @@
 import React, { ButtonHTMLAttributes } from 'react';
 
-type IColor = 'text-primary';
+type IColor = 'text-facebook-primary';
 type IBackground = 'bg-white' | 'bg-greenLight';
 type IButtonSize = 'small' | 'medium' | 'large';
 type IFontSize = 'text-xs' | 'text-md' | 'text-xl' | 'text-2xl';
@@ -36,7 +36,7 @@ const Button: React.FC<IProps> = (props) => {
         block ? 'w-full' : 'inline-block'
       } px-4 items-center justify-center rounded-md shadow-md font ${
         size === 'small' ? 'h-7' : size === 'large' ? 'h-11' : 'h-8'
-      } ${color ? color : 'text-white'} ${bg ? bg : 'bg-primary'}
+      } ${color ? color : 'text-white'} ${bg ? bg : 'bg-facebook-primary'}
       ${fontWeight ? fontWeight : 'font-semibold'}
       ${fontSize ? fontSize : 'text-sm'}
       `}

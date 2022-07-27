@@ -1,10 +1,6 @@
 import React from "react";
-interface homeIconType {
-  className: string;
-  height: number;
-  width: number;
-}
-const HomeIcon: React.FC<homeIconType> = (props) => {
+import { iconType } from "../types/global";
+const HomeIcon: React.FC<iconType> = (props) => {
   const { className, height, width } = props;
   return (
     <svg

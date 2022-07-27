@@ -9,8 +9,8 @@ const Navbar: React.FC = () => {
     <div className="w-full h-14 bg-white grid grid-cols-7 gap-4 p-1 fixed z-50">
       <div className="col-span-2 flex items-center">
         <div className="flex items-center ml-2">
-          <div className="h-10 text-primary">
-            <Link to="/">
+          <div className="h-10 text-facebook-primary">
+            <Link to="/facebook">
             <Facebook height={40} width={40} className="m"/>
             </Link>
           </div>
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
               key={`top_menu-${key}`}
               className={`h-full   ${
                 pathName === link
-                  ? "text-primary border-primary border-b-4"
+                  ? "text-facebook-primary border-facebook-primary border-b-4"
                   : "text-gray-600"
               }`}
             >

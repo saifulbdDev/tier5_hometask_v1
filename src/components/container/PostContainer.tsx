@@ -1,6 +1,6 @@
 import React from 'react';
-import { postsData } from '../../database';
-import { TPostView } from '../../types/post';
+import facebook from '../../database/facebook.json';
+import { TPostView, IPost } from '../../types/post';
 import Post from '../limb/post';
 
 interface IProps {
@@ -16,8 +16,37 @@ const PostContainer: React.FC<IProps> = (props) => {
           postsView === 'gridView' ? 'grid-cols-2' : 'grid-cols-1'
         } gap-2`}
       >
-        {postsData.length ? (
-          postsData.map((post, idx) => <Post key={idx} post={post} />)
+        {facebook.posts.length ? (
+          facebook.posts?.map((post, key) => {
+            const {
+              
+              user,
+              postedOn,
+              description,
+              image,
+              likes,
+              liked,
+              shares,
+              comments,
+            } = post;
+            return (
+              <Post
+                key={`post-${key}`}
+                user={{
+                  name: user.name,
+                  profilePicture: user.profilePicture,
+                }}
+                description={description}
+                image={image}
+                postedOn={postedOn}
+                likes={likes}
+                liked={liked}
+                shares={likes}
+               
+                comments={comments}
+              />
+            );
+          })
         ) : (
           <p>No posts yet!</p>
         )}

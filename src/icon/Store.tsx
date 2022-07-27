@@ -1,10 +1,6 @@
 import React from "react";
-interface storeType {
-  className: string;
-  height: number;
-  width: number;
-}
-const Store: React.FC<storeType> = (props) => {
+import { iconType } from '../types/global';
+const Store: React.FC<iconType> = (props) => {
   const { className, height, width } = props;
   return (
     <svg

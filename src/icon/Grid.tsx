@@ -1,10 +1,6 @@
 import React from "react";
-interface gridType {
-    className: string;
-    height:number,
-    width:number
-  }
-const Grid: React.FC<gridType>  = (props) => {
+import { iconType } from "../types/global";
+const Grid: React.FC<iconType>  = (props) => {
  const {className, height, width} = props
   return (
     <svg

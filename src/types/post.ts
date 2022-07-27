@@ -1,18 +1,18 @@
-export type TPostView = 'gridView' | 'listView';
+export type TPostView = "gridView" | "listView";
 
 export interface IPost {
-  _id: string;
+  id: string;
   user: {
-    _id: string;
-    fullname: string;
+    name: string;
     username: string;
-    dp?: string;
+    profilePicture?: string;
   };
-  caption?: string;
+  description?: string;
   image?: string;
   likes: number;
-  comments: number;
+  liked: boolean;
+  comments: string[];
   shares: number;
-  createdAt: Date;
-  updatedAt: Date;
+  postedOn: number;
+ 
 }

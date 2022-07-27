@@ -1,10 +1,6 @@
 import React from "react";
-interface groupType {
-  className: string;
-  height: number;
-  width: number;
-}
-const Group: React.FC<groupType> = (props) => {
+import { iconType } from "../types/global";
+const Group: React.FC<iconType> = (props) => {
   const { className, height, width } = props;
   return (
     <svg

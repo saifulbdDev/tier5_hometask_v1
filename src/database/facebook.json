@@ -1,0 +1,316 @@
+{
+  "user": {
+    "username": "saiful953 ",
+    "name": "Saiful Islam",
+    "profilePicture": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/283309026_1347374212422320_1321803210194100279_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG2qdwfBfvtnhj2EbqGgF96qhBVm7rqFEaqEFWbuuoURkiqwzapcCdCa2hYUCqm_a7JbXQbyTMuQfg44hrZ8R6X&_nc_ohc=jpIsOqjdyTgAX_OCpNh&_nc_ht=scontent.fdac24-2.fna&oh=00_AT8_FzNf-8ExapHfAmy9XAXuNtksqGYN02jcgWrm1dcpng&oe=62E2C2BA"
+  },
+  "posts": [
+    {
+      "id": "8402678390264947303",
+      "user": {
+        "username": "adam",
+        "name": "Adam",
+        "profilePicture": "https://www.archiefoundationhome.org.uk/wp-content/uploads/2020/05/profile-photo-social-media.jpg"
+      },
+      "postedOn": 1658433268399,
+      "description": "What a beautiful flower it is! Isn't it?",
+      "image": "https://cdn.pixabay.com/photo/2015/10/09/00/55/lotus-978659__340.jpg",
+      "likes": 10,
+      "liked": true,
+      "shares": 5,
+      "comments": [
+        {
+          "text": "How are you!",
+          "createdAt": 1658480500227,
+          "user": {
+            "username": "adam",
+            "name": "Adam",
+            "profilePicture": ""
+          }
+        },
+        {
+          "text": "Hello buddy! Beautifull flower. ",
+          "createdAt": 1658480500227,
+          "user": {
+            "username": "jhonson",
+            "name": "Jhonson D Rock",
+            "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/2.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8402678390264947304",
+      "user": {
+        "username": "jhonson",
+        "name": "Jhonson D Rock",
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/2.jpg"
+      },
+      "postedOn": 1658470925106,
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "image": "",
+      "likes": 5,
+      "liked": false,
+      "comments": []
+    },
+    {
+      "id": "8402678390264947304",
+      "user": {
+        "username": "adam",
+        "name": "Adam",
+        "profilePicture": "https://www.archiefoundationhome.org.uk/wp-content/uploads/2020/05/profile-photo-social-media.jpg"
+      },
+      "postedOn": 1658470925106,
+      "description": "What a beautiful flower it is! Isn't it?",
+      "image": "https://cdn.pixabay.com/photo/2015/10/09/00/55/lotus-978659__340.jpg",
+      "likes": 10,
+      "liked": true,
+      "shares": 5,
+      "comments": [
+        {
+          "text": "Hello!",
+          "createdAt": 1658480500227,
+          "user": {
+            "username": "adam",
+            "name": "Adam",
+            "profilePicture": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "8402678390264947305",
+      "user": {
+        "username": "adam",
+        "name": "Adam",
+        "profilePicture": "https://www.archiefoundationhome.org.uk/wp-content/uploads/2020/05/profile-photo-social-media.jpg"
+      },
+      "postedOn": 1658470925106,
+      "description": "What a beautiful flower it is! Isn't it?",
+      "image": "https://cdn.pixabay.com/photo/2015/10/09/00/55/lotus-978659__340.jpg",
+      "likes": 10,
+      "liked": true,
+      "shares": 5,
+      "comments": [
+        {
+          "text": "Hello!",
+          "createdAt": 1658480500227,
+          "user": {
+            "username": "adam",
+            "name": "Adam",
+            "profilePicture": ""
+          }
+        }
+      ]
+    }
+  ],
+  "friends": {
+    "request": [
+      {
+        "username": "adam",
+        "name": "Adam",
+        "profilePicture": "https://www.archiefoundationhome.org.uk/wp-content/uploads/2020/05/profile-photo-social-media.jpg",
+        "numOfMutualFrnd": 5
+      },
+      {
+        "username": "john",
+        "name": "Joe",
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/38.jpg",
+        "numOfMutualFrnd": 1
+      },
+      {
+        "username": "joe",
+        "name": "Joe",
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/38.jpg",
+        "numOfMutualFrnd": 5
+      },
+      {
+        "username": "john",
+        "name": "Joe",
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/38.jpg",
+        "numOfMutualFrnd": 1
+      },
+      {
+        "username": "joe",
+        "name": "Joe",
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/38.jpg",
+        "numOfMutualFrnd": 5
+      }
+    ],
+    "online": [
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/31.jpg",
+        "username": "Haley",
+        "numOfMutualFrnd": 3,
+        "name": "Sosa Garcia"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/32.jpg",
+        "username": "Mathews",
+        "numOfMutualFrnd": 3,
+        "name": "Sherri Hess"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/33.jpg",
+        "username": "Glenn",
+        "numOfMutualFrnd": 3,
+        "name": "Allyson Livingston"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/34.jpg",
+        "username": "Tucker",
+        "numOfMutualFrnd": 3,
+        "name": "John Ferguson"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/35.jpg",
+        "username": "Avery",
+        "numOfMutualFrnd": 3,
+        "name": "Sheena Conner"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/36.jpg",
+        "username": "Hart",
+        "numOfMutualFrnd": 3,
+        "name": "Eunice Kemp"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/37.jpg",
+        "username": "Young",
+        "numOfMutualFrnd": 3,
+        "name": "Willie Tillman"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/38.jpg",
+        "username": "Shaw",
+        "numOfMutualFrnd": 3,
+        "name": "Reva Murray"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/39.jpg",
+        "username": "Meadows",
+        "numOfMutualFrnd": 3,
+        "name": "Duffy Roach"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/18.jpg",
+        "username": "Hutchinson",
+        "numOfMutualFrnd": 3,
+        "name": "Marissa Chang"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/90.jpg",
+        "username": "Marshall",
+        "numOfMutualFrnd": 3,
+        "name": "Maryanne Schneider"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/71.jpg",
+        "username": "Solis",
+        "numOfMutualFrnd": 3,
+        "name": "Sheila Joyner"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/12.jpg",
+        "username": "Gilliam",
+        "numOfMutualFrnd": 3,
+        "name": "Justice Prince"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/43.jpg",
+        "username": "Parker",
+        "numOfMutualFrnd": 3,
+        "name": "Josefa Henderson"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/44.jpg",
+        "username": "Alvarez",
+        "numOfMutualFrnd": 3,
+        "name": "Jeanie Stewart"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/45.jpg",
+        "username": "Beach",
+        "numOfMutualFrnd": 3,
+        "name": "Noelle Wright"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/46.jpg",
+        "username": "Duffy",
+        "numOfMutualFrnd": 3,
+        "name": "Dominique Sellers"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/47.jpg",
+        "username": "Herrera",
+        "numOfMutualFrnd": 3,
+        "name": "French Little"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/48.jpg",
+        "username": "Martin",
+        "numOfMutualFrnd": 3,
+        "name": "Lori Franco"
+      },
+      {
+        "profilePicture": "https://minimaltoolkit.com/images/randomdata/male/49.jpg",
+        "username": "Whitaker",
+        "numOfMutualFrnd": 3,
+        "name": "Estela Pickett"
+      }
+    ]
+  },
+  "left_menus": [
+    {
+      "title": "Friends",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png",
+      "link": "/friends"
+    },
+    {
+      "title": "Groups",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/mk4dH3FK0jT.png",
+      "link": "/groups"
+    },
+    {
+      "title": "Marketplace",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/D2y-jJ2C_hO.png",
+      "link": "/marketplace"
+    },
+    {
+      "title": "Watch",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/duk32h44Y31.png",
+      "link": "/watch"
+    },
+    {
+      "title": "Memories",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/he-BkogidIc.png",
+      "link": "/memories"
+    },
+    {
+      "title": "Ad Center",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/CwKNCefmHON.png",
+      "link": "/ad-center"
+    },
+    {
+      "title": "Blood Donations",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/CpdWrf1nzR2.png",
+      "link": "/blood"
+    },
+    {
+      "title": "Climate Science Center",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Jr0q8qKF2-Y.png",
+      "link": "/friends"
+    },
+    {
+      "title": "Community Help",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/9s7nhm949yb.png",
+      "link": "/community-help"
+    },
+    {
+      "title": "Messenger",
+      "image": "https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/4Y9Xi2D3hJv.png",
+      "link": "/messenger"
+    }
+    
+  ]
+}

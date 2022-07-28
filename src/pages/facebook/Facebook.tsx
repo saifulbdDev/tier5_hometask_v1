@@ -3,7 +3,7 @@ import LeftSidebar from "./LeftSidebar";
 import NewsFeedScreen from "./NewsFeed";
 import RightSidebar from "./RightSidebar";
 import Navbar from "../../components/limb/Header/FacebookHeader";
-const FacebookPage: React.FC = () => {
+const Facebook: React.FC = () => {
   return (
     <div className="w-full h-full flex flex-col">
       <Navbar />
@@ -26,4 +26,4 @@ const FacebookPage: React.FC = () => {
   );
 };
 
-export default FacebookPage;
+export default Facebook;

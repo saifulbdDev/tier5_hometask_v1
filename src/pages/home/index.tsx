@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Facebook, Instagram } from "../../icon";
 
 
-const HomePage: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <div className="flex items-center justify-center h-screen gap-x-8">
       <Link
@@ -29,4 +29,4 @@ const HomePage: React.FC = () => {
   );
 }
 
-export default HomePage;
+export default Home;

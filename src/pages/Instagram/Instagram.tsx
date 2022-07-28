@@ -1,5 +1,5 @@
 import React from "react";
-import InstagramHeader from "../../components/limb/Header/InstagramHeader";
+import InstagramHeader from "../../components/Limb/Header/InstagramHeader";
 import Stories from "./Stories";
 import data from "../../database/instagram.json";
 import AccountSwitch from "./AccountSwitch";

@@ -2,7 +2,7 @@ import React from "react";
 import LeftSidebar from "./leftSidebar";
 import NewsFeedScreen from "./newsFeed";
 import RightSidebar from "./rightSidebar";
-import Navbar from "../../components/limb/Header/FacebookHeader";
+import Navbar from "../../components/Limb/Header/FacebookHeader";
 const Facebook: React.FC = () => {
   return (
     <div className="w-full h-full flex flex-col">

@@ -1,7 +1,7 @@
 import React from 'react';
 import facebook from '../../database/facebook.json';
 import { TPostView, } from '../../types/post';
-import Post from '../limb/post';
+import Post from '../Limb/post';
 
 interface IProps {
   postsView?: TPostView;

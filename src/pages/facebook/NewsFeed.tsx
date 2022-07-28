@@ -1,7 +1,7 @@
 import React from "react";
-import CreatePostBox from "../../components/limb/post/CreatePostBox";
-import PostContainer from "../../components/container/PostContainer";
-import Story from "../../components/limb/story";
+import CreatePostBox from "../../components/Limb/post/CreatePostBox";
+import PostContainer from "../../components/Container/PostContainer";
+import Story from "../../components/Limb/story";
 import facebook from "../../database/facebook.json";
 
 const NewsFeed: React.FC = () => {

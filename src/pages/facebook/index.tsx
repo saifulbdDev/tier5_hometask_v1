@@ -1,7 +1,7 @@
 import React from "react";
-import LeftSidebar from "./LeftSidebar";
-import NewsFeedScreen from "./NewsFeed";
-import RightSidebar from "./RightSidebar";
+import LeftSidebar from "./leftSidebar";
+import NewsFeedScreen from "./newsFeed";
+import RightSidebar from "./rightSidebar";
 import Navbar from "../../components/limb/Header/FacebookHeader";
 const Facebook: React.FC = () => {
   return (

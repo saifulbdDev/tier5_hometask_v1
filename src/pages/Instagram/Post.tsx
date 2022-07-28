@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import PostActions from "../../components/Limb/post/social/PostActions";
+import PostActions from "../../components/limb/post/PostActions";
 import AddComment from "./AddComment";
-import PostComments from "../../components/Limb/post/social/PostComments";
-import Card from "../../components/Limb/Card";
+import PostComments from "../../components/limb/post/PostComments";
+import Card from "../../components/limb/Card";
 import { User, PostProps } from "../../types/global";
 import {MoreOptions} from "../../icon";
 

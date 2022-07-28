@@ -1,5 +1,5 @@
 import React from "react";
-import StatusAvatar from "../../components/Limb/post/social/StatusAvatar";
+import StatusAvatar from "../../components/limb/post/StatusAvatar";
 import { StatusAvatarProps } from "../../types/global";
 
 type StoriesProps = {

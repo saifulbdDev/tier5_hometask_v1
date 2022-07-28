@@ -1,7 +1,6 @@
 import React from "react";
 
-import { StatusAvatarProps } from "../../../../types/global";
-
+import { StatusAvatarProps } from "../../../types/global";
 
 function StatusAvatar({
   name,

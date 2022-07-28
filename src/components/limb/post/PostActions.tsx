@@ -1,11 +1,11 @@
 import React from "react";
-import { Love, Share,  Comment} from "../../../../icon";
+import { Love, Share,Save,  Comment} from "../../../icon";
 
 
 
 
-import { PostActionProps } from "../../../../types/global";
-import Save from '../../../../icon/Save';
+import { PostActionProps } from "../../../types/global";
+
 
 function Facebook({
   liked,

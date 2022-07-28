@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Facebook from "./pages/Facebook/Facebook";
+import Facebook from "./pages/facebook";
 import Instagram from "./pages/Instagram/Instagram";
 
 import PageNotFound from "./pages/Notfound/Notfound";

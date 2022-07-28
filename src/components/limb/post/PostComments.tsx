@@ -1,5 +1,5 @@
 import React from "react";
-import { PostCommentsProps } from "../../../../types/global";
+import { PostCommentsProps } from "../../../types/global";
 
 import UserCommentBox from "./UserCommentBox";
 

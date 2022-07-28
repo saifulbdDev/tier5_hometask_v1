@@ -1,7 +1,7 @@
 /* eslint-disable react/require-default-props */
 import React from "react";
 
-import { UserCommentBoxProps } from "../../../../types/global";
+import { UserCommentBoxProps } from "../../../types/global";
 
 function UserCommentBox({
   userProfilePictureURL,

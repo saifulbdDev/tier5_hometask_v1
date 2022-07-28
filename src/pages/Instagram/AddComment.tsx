@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 // import Input from "../../../components/form/Input";
 // import Button from "../../../components/ui/Button";
 // import Image from "../../../components/ui/Image";
 
 function AddComment() {
-  const [comment, setComment] = useState<string>("");
+  // const [comment, setComment] = useState<string>("");
 
+  // setComment
 
-   
   return (
     <div className="flex px-4 items-center justify-between border-t border-gray-300 h-10 pt-2">
       <div className="flex items-center justify-between gap-x-3">
@@ -20,20 +20,16 @@ function AddComment() {
           className="border-none w-full py-2 placeholder:text-instagram-secondary text-instagram-primary text-base focus:outline-none"
           type="text"
           placeholder="Add a comment..."
-        
-         
         />
       </div>
       <button
-    
-        className={`text-base font-semibold text-instagram-blue ${
-          comment ? `` : `opacity-50 cursor-not-allowed`
-        }`}
-     
+        className="text-base font-semibold text-instagram-blue opacity-50 cursor-not-allowed`
+        "
         name="Post"
         // eslint-disable-next-line no-console
-       
-      >Post</button>
+      >
+        Post
+      </button>
     </div>
   );
 }

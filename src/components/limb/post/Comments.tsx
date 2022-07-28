@@ -8,7 +8,7 @@ type commentsProps = {
 };
 
 const Comments: React.FC<commentsProps> = (props) => {
-  const { userProfilePiture, data } = props;
+  const {  data } = props;
 
   return (
     <div className="flex flex-col px-4 gap-y-4  no-scrollbar overflow-y-auto">

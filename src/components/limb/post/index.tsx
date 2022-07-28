@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { IPost } from "../../../types/post";
+import React, {useState} from "react";
+
 import Reactions from "../../rc-actions";
 import Comments from "./Comments";
 import moment from "moment";
@@ -40,18 +40,18 @@ const Post: React.FC<IProps> = (props) => {
       img: require("../../../icon/a44ke8c.gif"),
     },
   ];
-  const { user, description, image, postedOn, likes, shares, liked, comments } =
+  const { user, description, image, postedOn, likes, shares,  comments } =
     props;
 
   // const [newComments, setComments] = useState<any>(comments);
-  // const [newLikes, setLikes] = useState<number>(likes);
+  const [newLikes, setLikes] = useState<number>(likes);
 
-  // const addLike = () => {
-  
-  //   setLikes(prevState => {
-  //     return (prevState + 1)
-  //  })
-  // }
+  const addLike = () => {
+     
+    setLikes(prevState => {
+      return (prevState + 1)
+   })
+  }
 
   return (
     <div className="w-full shadow h-auto pb-4 bg-white rounded-md">
@@ -91,7 +91,7 @@ const Post: React.FC<IProps> = (props) => {
       <div className="w-full flex flex-col space-y-2 p-2 px-4">
         <div className="flex items-center justify-between pb-2 border-b border-gray-300 text-gray-500 text-sm">
           <div className="flex items-center">
-            <button className="flex items-center">
+            <nav className="flex items-center">
               <button className="focus:outline-none flex items-center justify-center w-4 h-4 rounded-full bg-red-500 text-white">
                 <i style={{ fontSize: 10 }} className="fas fa-heart"></i>
               </button>
@@ -102,9 +102,9 @@ const Post: React.FC<IProps> = (props) => {
                 <i style={{ fontSize: 10 }} className="fas fa-surprise"></i>
               </button>
               <div className="ml-1">
-                <p>{likes}</p>
+                <p>{newLikes}</p>
               </div>
-            </button>
+            </nav>
           </div>
           <div className="flex items-center space-x-2">
             {comments.length > 0 ? (
@@ -117,7 +117,7 @@ const Post: React.FC<IProps> = (props) => {
           </div>
         </div>
         <div className="grid grid-cols-3 gap-4 border-b border-gray-300 space-x-3 text-gray-500 text-sm font-thin">
-          <Reactions items={images} >
+          <Reactions items={images}  onUpdate={addLike}>
             <button className="flex-1 w-full flex items-center h-8 focus:outline-none focus:bg-gray-200 justify-center space-x-2 hover:bg-gray-100 rounded-md">
               <div>
                 <i className="fas fa-thumbs-up"></i>

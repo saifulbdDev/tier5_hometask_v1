@@ -17,7 +17,7 @@ const CreatePostBox: React.FC<IProps> = (props) => {
           <img
             src={profilePicture}
             className="w-full h-full rounded-full"
-            alt="dp"
+            alt={name}
           />
         </div>
         <button className="hover:bg-gray-200 focus:bg-gray-300 focus:outline-none flex-grow bg-gray-100 text-gray-500 text-left rounded-full h-10 pl-5">

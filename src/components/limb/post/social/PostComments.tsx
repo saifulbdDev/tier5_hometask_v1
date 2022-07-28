@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { PostCommentsProps } from "../../../../types/global";
 
 import UserCommentBox from "./UserCommentBox";

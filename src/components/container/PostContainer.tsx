@@ -1,6 +1,6 @@
 import React from 'react';
 import facebook from '../../database/facebook.json';
-import { TPostView, IPost } from '../../types/post';
+import { TPostView, } from '../../types/post';
 import Post from '../limb/post';
 
 interface IProps {
@@ -25,8 +25,7 @@ const PostContainer: React.FC<IProps> = (props) => {
               description,
               image,
               likes,
-              liked,
-              shares,
+              liked,           
               comments,
             } = post;
             return (

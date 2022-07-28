@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import InstagramHeader from "../../components/limb/Header/InstagramHeader";
 import Stories from "./Stories";
 import * as data from "../../database/instagram.json";

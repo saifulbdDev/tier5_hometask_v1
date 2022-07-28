@@ -30,7 +30,7 @@ export default class Reactions extends Component {
   	const optionsStyles = {
   		position: 'relative'
   	};
-
+  
   	const elementsStyles = {
   		listStyle: 'none',
 		padding: 0,

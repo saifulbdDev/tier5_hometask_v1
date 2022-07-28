@@ -1,5 +1,5 @@
 import React from 'react';
-import { IPost } from '../../../types/post';
+
 
 interface IProps {
   image:string,

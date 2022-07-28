@@ -1,12 +1,25 @@
-import React from 'react';
-import Routers from './routes';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import './App.css';
+import Facebook from "./pages/Facebook/Facebook";
+import Instagram from "./pages/Instagram/Instagram";
+
+import PageNotFound from "./pages/notfound";
+import Home from "./pages/Home/Home";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="w-full h-full">
-      <Routers />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/facebook" element={<Facebook />} />
+          <Route path="/instagram" element={<Instagram />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

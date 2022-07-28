@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-import Reactions from "../../rc-actions";
+import Reactions from "../../Reaction";
 import Comments from "./Comments";
 import moment from "moment";
 interface IProps {

@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Facebook from "../pages/facebook";
-import Instagram from "../pages/Instagram"
+import Facebook from "../pages/Facebook/Facebook";
+import Instagram from "../pages/Instagram/Instagram"
 
 import PageNotFound from "../pages/notfound";
-import Home from "../pages/Home";
+import Home from "../pages/Home/Home";
 
 const Routers: React.FC = () => {
   return (

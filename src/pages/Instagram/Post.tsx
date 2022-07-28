@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 
-
-
 import PostActions from "../../components/limb/post/social/PostActions";
 import AddComment from "./AddComment";
 import PostComments from "../../components/limb/post/social/PostComments";
 import Card from "../../components/limb/Card";
 import { User, PostProps } from "../../types/global";
+import {MoreOptions} from "../../icon";
 
 type TopContentOfCardProps = User & {
   image: string;
@@ -43,16 +42,10 @@ function TopContentOfCard({
             </p>
           </div>
         </div>
-        <div className="text-instagram-tertiary h-4 w-4 md:h-5 md:w-5 cursor-not-allowed" />
+        <MoreOptions width={24} height={24} className="text-instagram-tertiary h-4 w-4 md:h-5 md:w-5 cursor-not-allowed" />
       </div>
       <div>
-        {image && (
-          <img
-            src={image}
-            alt="Post"
-            className="max-w-full h-auto"
-          />
-        )}
+        {image && <img src={image} alt="Post" className="max-w-full h-auto" />}
       </div>
     </>
   );

@@ -15,7 +15,7 @@ const Story: React.FC<IProps> = (props) => {
  
   return (
     <div
-      className="w-28 h-48 relative rounded-xl p-3 to-pink-500 shadow cursor-pointer"
+      className="w-28 mobile:h-48 h-36 relative rounded-xl p-3 to-pink-500 shadow cursor-pointer"
       style={{ backgroundImage: `url(${image})` }}
     >
       <div className="absolute">

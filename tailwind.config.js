@@ -14,6 +14,7 @@ module.exports = {
           primary: "#262626",
           secondary: "#8E8E8E",
           tertiary: "#64676B",
+          blue: "#0095F6",
           body: "#FAFAFA",
         },
       },
@@ -34,12 +35,13 @@ module.exports = {
         18: "4.5rem",
       },
       screens: {
-       
-        '2xl': '1536px',
+        'mobile': "480px",
+        'tablet': "910px",
+        "2xl": "1536px",
       },
       gridTemplateColumns: {
-        'header': '1fr 268px 1fr',
-      }
+        header: "1fr 268px 1fr",
+      },
     },
   },
   variants: {

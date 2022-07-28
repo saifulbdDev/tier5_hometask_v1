@@ -15,10 +15,10 @@ const FacebookPage: React.FC = () => {
         <div className="col-span-2  justify-start  hidden lg:flex">
           <LeftSidebar />
         </div>
-        <div className="lg:col-span-3 col-span-5  h-full">
+        <div className="lg:col-span-3 tablet:col-span-5 col-span-7  h-full">
           <NewsFeedScreen />
         </div>
-        <div className="col-span-2 flex justify-end   ">
+        <div className="col-span-2 tablet:flex justify-end hidden">
           <RightSidebar />
         </div>
       </div>

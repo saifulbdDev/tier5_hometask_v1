@@ -16,6 +16,10 @@ import Plus from "./Plus";
 import Messenger from "./Messenger";
 import Love from "./Love";
 import Search from "./Search";
+import MoreOptions from "./MoreOptions";
+import Save from './Save';
+import Share from "./Share";
+import Comment from "./Comment";
 
 export {
   Grid,
@@ -35,5 +39,9 @@ export {
   Instagram,
   Find,
   Love,
-  Search
+  Search,
+  MoreOptions,
+  Comment,
+  Save,
+  Share,
 };

@@ -28,11 +28,11 @@ const topMenus = [
   },
 ];
 const bottomMenus = [
-  { link: "/", icon: <Grid className="mx-auto" width={20} height={20} /> },
-  { link: "/", icon:  <i className="fab fa-facebook-messenger icon mx-auto"></i> },
-  { link: "/", icon: <i className="fas fa-bell icon mx-auto"></i> },
+  { link: "/facebook", icon: <Grid className="mx-auto" width={20} height={20} /> },
+  { link: "/facebook", icon:  <i className="fab fa-facebook-messenger icon mx-auto"></i> },
+  { link: "/facebook", icon: <i className="fas fa-bell icon mx-auto"></i> },
   {
-    link: "/profile",
+    link: "/facebook",
     icon: (
       <img
         src="https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/283309026_1347374212422320_1321803210194100279_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG2qdwfBfvtnhj2EbqGgF96qhBVm7rqFEaqEFWbuuoURkiqwzapcCdCa2hYUCqm_a7JbXQbyTMuQfg44hrZ8R6X&_nc_ohc=jpIsOqjdyTgAX_OCpNh&_nc_ht=scontent.fdac24-2.fna&oh=00_AT8_FzNf-8ExapHfAmy9XAXuNtksqGYN02jcgWrm1dcpng&oe=62E2C2BA"

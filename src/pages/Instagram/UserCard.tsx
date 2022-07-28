@@ -12,13 +12,13 @@ function UserCard({ username, name, profilePicture, actionName }: User) {
   return (
     <div className="flex items-center justify-between">
       <div className="flex items-center gap-x-4">
-        {/* <Image
-          srcURL={profilePicture}
-          alt="Profile Picture"
+        <img
+          src={profilePicture}
+          alt="Profile"
           className={`rounded-full object-cover ${
             actionName === "Switch" ? `w-14 h-14` : `w-10 h-10`
           }`}
-        /> */}
+        />
         <div className="flex flex-col items-start">
           <p
             className={`font-semibold text-instagram-primary ${

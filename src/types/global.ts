@@ -63,9 +63,7 @@ export type InputProps = {
     userProfilePitureClass: string;
   };
   
-  export type LoaderProps = SocialPlatform & {
-    placeAt: "page" | "block";
-  };
+ 
   
   export type StatusAvatarProps = SocialPlatform & {
     name: string;

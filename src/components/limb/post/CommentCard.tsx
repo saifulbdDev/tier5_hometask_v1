@@ -1,7 +1,6 @@
 /* eslint-disable react/require-default-props */
 import React from "react";
-
-
+import moment from "moment";
 type UserCommentCardProps = {
   actionType: "Write" | "See";
   userProfilePictureURL: string;
@@ -23,7 +22,11 @@ function CommentCard({
 }: UserCommentCardProps) {
   return (
     <div className={cardClass}>
-     
+      <img
+        src={userProfilePictureURL}
+        alt={comment}
+        className={userProfilePitureClass}
+      />
       <div
         className={
           actionType === "See" ? `w-auto` : `w-full cursor-not-allowed`
@@ -47,7 +50,8 @@ function CommentCard({
         </div>
         {commentedAt && (
           <p className="px-3 text-xs text-facebook-normal">
-            {/* {helpers.formatTheDateInRelativeTime(commentedAt, "day")} */}
+            {moment(commentedAt).fromNow()}
+         
           </p>
         )}
       </div>

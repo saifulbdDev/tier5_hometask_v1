@@ -1,9 +1,11 @@
 import React from "react";
+import { Love, Share,  Comment} from "../../../../icon";
 
 
 
 
 import { PostActionProps } from "../../../../types/global";
+import Save from '../../../../icon/Save';
 
 function Facebook({
   liked,
@@ -44,26 +46,49 @@ function Instagram({
   return (
     <div className="flex items-center justify-between text-instagram-primary px-4">
       <div className="flex gap-x-3">
-        <div style={{ marginTop: "2px" }}>
+      
           {liked ? (
-            <div
-             
-              className="cursor-not-allowed fill-red-600"
-            />
+             <Love
+             width={24}
+             height={24}
+             className="cursor-pointer"
+            
+            
+           /> 
           ) : (
-            <div  className="cursor-not-allowed" />
+            <Love
+            width={24}
+            height={24}
+            className="cursor-pointer"
+           
+           
+          /> 
           )}
-        </div>
-        {/* <BsChat
-          size={20}
+           <Comment
+          width={24}
+          height={24}
           className="cursor-pointer"
-          onClick={() => commentHandler(!proceedToComment)}
-          aria-hidden="true"
-        /> */}
-        {/* <FiSend size={20} className="cursor-not-allowed" /> */}
+         
+         
+        /> 
+       <Share
+          width={24}
+          height={24}
+          className="cursor-pointer"
+         
+         
+        /> 
+       
+        
       </div>
       <div>
-        {/* <BsBookmark size={20} className="cursor-not-allowed" /> */}
+      <Save
+          width={24}
+          height={24}
+          className="cursor-pointer"
+         
+         
+        /> 
       </div>
     </div>
   );

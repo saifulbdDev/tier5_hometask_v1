@@ -13,7 +13,7 @@ function InstagramHeader({ profilePicture }: InstagramHeaderProps) {
   return (
     <div className="fixed top-0 w-full bg-white shadow  z-20">
       <div className="header-container">
-        <div>
+        <div className="">
           <Link to="/">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png"
@@ -22,7 +22,7 @@ function InstagramHeader({ profilePicture }: InstagramHeaderProps) {
             />
           </Link>
         </div>
-        <div className="">
+        <div className="sm:flex hidden ">
           <form className="flex items-center">
             <div className="relative w-full h-9">
               <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
@@ -41,8 +41,8 @@ function InstagramHeader({ profilePicture }: InstagramHeaderProps) {
             </div>
           </form>
         </div>
-        <div>
-          <div className="flex justify-end md:gap-x-6">
+        <div className="sm:col-span-1 col-span-2 ">
+          <div className="flex justify-end tablet:gap-5 sm:gap-2 gap-2 ">
             {instagramMenus.map((item, key) => {
               const { icon, link } = item;
               return (

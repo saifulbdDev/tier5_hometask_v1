@@ -43,7 +43,7 @@ const CreatePostBox: React.FC<IProps> = (props) => {
             <p className="font-semibold">Photos/Video</p>
           </div>
         </button>
-        <button className="flex-1 flex items-center h-8 focus:outline-none focus:bg-gray-200 justify-center space-x-2 hover:bg-gray-100 rounded-md">
+        <button className="flex-1 hidden mobile:flex items-center h-8 focus:outline-none focus:bg-gray-200 justify-center space-x-2 hover:bg-gray-100 rounded-md">
           <div>
           
           <Feeling  className=" text-yellow-500" width={24} height={24}/>

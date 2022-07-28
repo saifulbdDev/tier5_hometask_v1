@@ -29,7 +29,12 @@
   @apply bg-gray-400;
 }
 .header-container {
-  @apply grid  gap-2 w-full h-14 mx-auto md:h-16 z-10 items-center grid-cols-header;
+  @apply grid px-4 gap-2 w-full h-14 mx-auto md:h-16 z-10 items-center grid-cols-3  sm:grid-cols-header;
   max-width: calc(935px + 40px);
-  
+}
+
+@media (min-width: 1024px) {
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3 !important;
+  }
 }

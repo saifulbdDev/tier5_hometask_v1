@@ -6,31 +6,34 @@ import React, { useState } from "react";
 function AddComment() {
   const [comment, setComment] = useState<string>("");
 
+
+   
   return (
     <div className="flex px-4 items-center justify-between border-t border-gray-300 h-10 pt-2">
-      {/* <div className="flex items-center justify-between gap-x-3">
-        <Image
-          srcURL="https://minimaltoolkit.com/images/randomdata/male/38.jpg"
-          alt="Profile Picture"
+      <div className="flex items-center justify-between gap-x-3">
+        <img
+          src="https://minimaltoolkit.com/images/randomdata/male/38.jpg"
+          alt="Profile"
           className="w-8 h-8 object-cover rounded-full"
         />
-        <Input
+        <input
           className="border-none w-full py-2 placeholder:text-instagram-secondary text-instagram-primary text-base focus:outline-none"
           type="text"
           placeholder="Add a comment..."
-          value={comment}
-          onChange={setComment}
+        
+         
         />
       </div>
-      <Button
+      <button
+    
         className={`text-base font-semibold text-instagram-blue ${
           comment ? `` : `opacity-50 cursor-not-allowed`
         }`}
-        disabled={comment === ""}
+     
         name="Post"
         // eslint-disable-next-line no-console
-        onClick={() => console.log("Clicked")}
-      /> */}
+       
+      >Post</button>
     </div>
   );
 }

@@ -10,7 +10,7 @@ const NewsFeed: React.FC = () => {
       {/* Story Section */}
       <div className="w-full h-50 flex items-center justify-center space-x-2 overflow-hidden cursor-pointer my-6">
         <div
-          className="w-28 h-48 relative rounded-xl shadow bg-center hover:opacity-15 bg-cover"
+          className="w-28 h-48 mobile:flex hidden relative rounded-xl shadow bg-center hover:opacity-15 bg-cover"
           style={{ backgroundImage: `url(${facebook.user.profilePicture})` }}
         >
           <div
@@ -21,7 +21,7 @@ const NewsFeed: React.FC = () => {
               <i className="text-white fas fa-plus"></i>
             </button>
           </div>
-          <div className="bg-white z-30 absolute text-center bottom-0 p-2 pt-4 w-full h-auto rounded-b-lg ">
+          <div className="bg-white  z-30 absolute text-center bottom-0 p-2 pt-4 w-full h-auto rounded-b-lg ">
             <p className="text-gray-900 text-xs font-bold">Create Story</p>
           </div>
         </div>
